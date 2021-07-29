@@ -96,7 +96,7 @@ function SubMenu() {
               <p>.</p>
             </div>
           </div>
-          <div class="mdl-cell mdl-cell-3-col" id="block-views-block-links-block-1">
+          <div class="mdl-cell mdl-cell--3-col" id="block-views-block-links-block-1">
             <h2>Links</h2>
             <div class="content">
               <div>
@@ -132,7 +132,7 @@ function SubMenu() {
               </div>
             </div>
           </div>
-          <div class="mdl-cell mdl-cell-3-col" id="block-views-block-service-links-block-1">
+          <div class="mdl-cell mdl-cell--3-col" id="block-views-block-service-links-block-1">
             <h2>Service</h2>
 
             <div class="content">
@@ -178,7 +178,7 @@ function SubMenu() {
               </div>
             </div>
           </div>
-          <div id="block-contacts" class="mdl-cell mdl-cell-3-col">
+          <div id="block-contacts" class="mdl-cell mdl-cell--3-col">
             <h2>Contacts</h2>
             <div class="content">
               <div>

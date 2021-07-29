@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
-  "homepage": "https://bigdatamine.github.io/portfolio",
-  "version": "0.1.0",
+  "name": "bdm",
+  "homepage": "https://bigdatamine.github.io/bdm",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -41,5 +41,10 @@
     "not dead",
     "not op_mini all"
   ],
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": "reat website",
+  "main": "index.js",
+  "repository": "https://github.com/bigdatamine/bdm.git",
+  "author": "bigdatamine <info@bigdatamining.co.bw>",
+  "license": "MIT"
 }

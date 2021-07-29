@@ -48,7 +48,7 @@ function About() {
             <Grid item xs={6} lg={7}>
               <div className={classes.about}>
                 <div class="views-field views-field-title">
-                  <Typography color="" variant="h2">
+                  <Typography color="primary" variant="h2">
                     About
                   </Typography>
                 </div>

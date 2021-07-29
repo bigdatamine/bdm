@@ -7,7 +7,7 @@ import App from "./App";
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider>
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <App />
       </Router>
     </StateProvider>

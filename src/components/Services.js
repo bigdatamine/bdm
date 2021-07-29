@@ -55,7 +55,9 @@ function Carousel() {
     <div className={classes.root}>
       <Container maxWidth="lg">
         <Divider />
-        <Typography variant="h2">Services</Typography>
+        {/* <Typography color="primary" variant="h2">
+          Services
+        </Typography> */}
         <Slider className={classes.slider} {...settings}>
           <Service title="Service 1" link="service1">
             Dolor sit amet, consectetur cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
