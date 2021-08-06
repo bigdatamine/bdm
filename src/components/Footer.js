@@ -46,9 +46,9 @@ function Footer() {
         </div>
         <div className={classes.developer}>
           Website Design and Developent by
-          <a href="https://github.com/GomolemoDitlhong" target="_blank" rel="noreferrer">
+          <a href="https://bigdatamining.co.bw" target="_blank" rel="noreferrer">
             {" "}
-            Gomolemo Ditlhong
+            Big Data Mining
           </a>
         </div>
       </Container>
