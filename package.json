@@ -1,6 +1,6 @@
 {
   "name": "bdm",
-  "homepage": "https://bigdatamine.github.io/bdm",
+  "homepage": "https://bigdatamine.github.io",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
