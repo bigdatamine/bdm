@@ -57,10 +57,11 @@ const theme = createMuiTheme({
       marginBottom: "30px",
     },
     body1: {
+      fontSize: "1.255rem",
       color: "#000000",
     },
     body2: {
-      fontSize: "1.125rem",
+      fontSize: "1.255rem",
       color: "#ffffff",
     },
     textPrimary: {

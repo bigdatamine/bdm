@@ -55,15 +55,13 @@ function About() {
                 <div class="views-field views-field-body">
                   <div class="field-content">
                     <Typography variant="body1" paragraph>
-                      Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur.
+                    Big Data Mining (BDM) is a whole citizen owned company, it is as a dynamic Information Technology company that provide IT-Enable Solutions, Services and Training around the country. It is offering the global community the finest of software products and solutions that not just fulfilling their needs today but offer them a competitive advantage tomorrow...
                     </Typography>
                   </div>
                 </div>
                 <div class="views-field views-field-view-node">
                   <span class="field-content">
-                    <LinkedButton size="medium">Read More</LinkedButton>
+                    <LinkedButton link="About" size="medium">Read More</LinkedButton>
                   </span>
                 </div>
               </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import Service from "./Service";
-import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container } from "@material-ui/core";
 import Divider from "./Divider";
@@ -26,7 +25,6 @@ const styles = makeStyles((theme) => ({
       "&:before": {
         color: theme.palette.primary.main,
         fontSize: "36px",
-        fontSize: "2.25rem",
         opacity: 0.85,
       },
       "&:hover": {
@@ -59,25 +57,16 @@ function Carousel() {
           Services
         </Typography> */}
         <Slider className={classes.slider} {...settings}>
-          <Service title="Service 1" link="service1">
-            Dolor sit amet, consectetur cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo con. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
+          <Service title="Our Website" link="service1">      
+This includes: Domain Name Registration, Website Designing & Development, Multimedia Presentations, Web Hosting, Internet & SMS Based Marketing, Search Engine Optimization, Live Chart Service, Web Server Configuration, Integrated Web Application Development.
           </Service>
-          <Service title="Service 2" link="service2">
-            Dolor sit amet, consectetur sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo equat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
+          <Service title="Our Data Management" link="service2">
+      
+This includes: Document Management Solutions, Cloud Service Consultations, Database Design & Development, Reports Formulation from existing Data, Imaging, Data Capture and Migration services, Data center Maintenance & Hosting facilities
           </Service>
-          <Service title="Service 3" link="service3">
-            Dolor sit amet, consectetur sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo con. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
-          </Service>
-          <Service title="Service 4" link="service4">
-            Dolor sit amet, consectetur adipisi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo quat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
+          <Service title="Other ICT services" link="service3">
+                  
+          ICT consultancy services , Security Management and Maintenance Services, Supplies, Digital Forensic and Network management services
           </Service>
         </Slider>
       </Container>
