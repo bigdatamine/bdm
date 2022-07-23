@@ -56,14 +56,12 @@ function Why() {
                   <div class="views-row">
                     <div className={classes.subTitleContainer}>
                       <Typography variant="subtitle1" paragraph>
-                        Consectetur ading elit, sed do
+                      We are at the forefront of innovation
                       </Typography>
                       <div class="views-field views-field-body">
                         <div className={classes.bodyContainer}>
                           <Typography variant="body2" paragraph>
-                            Consectetur ading elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim, quis&nbsp;nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&nbsp;reprehenderit in voluptate velit
-                            esse cillum dolore &nbsp;proident, sunt in culpa…
+                           And we are passionate about its potential as a pathway to sustainable growth and a better way of working and living. Together with our clients and partners, we uncover what’s next – and make it a reality for genuine business impact. From rigorous frameworks that accelerate innovation, to high-intensity R&D to prove out the value of new technologies, we help our clients anticipate future trends, assess their potential, and take advantage of them responsibly. 
                           </Typography>
                         </div>
                       </div>

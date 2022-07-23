@@ -142,7 +142,7 @@ function SubMenu() {
                     <div class="views-field views-field-title">
                       <span class="field-content">
                         <Link to="/service1" style={{ textDecoration: "none" }}>
-                          Service 1
+                          Data Management
                         </Link>
                       </span>
                     </div>
@@ -151,7 +151,7 @@ function SubMenu() {
                     <div class="views-field views-field-title">
                       <span class="field-content">
                         <Link to="/service1" style={{ textDecoration: "none" }}>
-                          Service 2
+                          App Development
                         </Link>
                       </span>
                     </div>
@@ -160,7 +160,7 @@ function SubMenu() {
                     <div class="views-field views-field-title">
                       <span class="field-content">
                         <Link to="/service1" style={{ textDecoration: "none" }}>
-                          Service 3
+                          Website Development
                         </Link>
                       </span>
                     </div>
@@ -169,7 +169,7 @@ function SubMenu() {
                     <div class="views-field views-field-title">
                       <span class="field-content">
                         <Link to="/service4" style={{ textDecoration: "none" }}>
-                          Service 4
+                          ICT Services
                         </Link>
                       </span>
                     </div>

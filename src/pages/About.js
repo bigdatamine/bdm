@@ -40,21 +40,15 @@ function Home() {
   return (
     <main className={clsx(classes.content, { [classes.contentShift]: drawer })}>
       <div className={classes.drawerHeader} />
+      <Typography variant="h3" paragraph>About Us</Typography>
       <Typography paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim
-        praesent elementum facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in hendrerit gravida rutrum quisque non tellus. Convallis
-        convallis tellus id interdum velit laoreet id donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit adipiscing bibendum
-        est ultricies integer quis. Cursus euismod quis viverra nibh cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo
-        quis imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue eget arcu dictum varius duis at consectetur lorem. Velit sed
-        ullamcorper morbi tincidunt. Lorem donec massa sapien faucibus et molestie ac.
+      Big Data Mining (BDM) is a whole citizen owned company, it is as a dynamic Information Technology company that provide IT-Enable Solutions, Services and Training around the country. It is offering the global community the finest of software products and solutions that not just fulfilling their needs today but offer them a competitive advantage tomorrow. We have started with the aim of providing world-class service at an affordable price without compromising strength and reliability. We aim to be recognized as one of the leading Web, SMS &amp; Application solution provider in the industry. We also understand that every successful company is a team of skilled and dedicated people. We are having best team of Hardworking, Honest, talented &amp; certified professionals with the necessary skills and drive to provide our customer with a superior service. It is also our mission to provide employment opportunities and business opportunities to young Batswana.
+
+
       </Typography>
+      <Typography variant="h3" paragraph>Our Vision</Typography>
       <Typography paragraph>
-        Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
-        neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis sed
-        odio morbi. Euismod lacinia at quis risus sed vulputate odio. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. In hendrerit gravida
-        rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem et tortor. Habitant morbi tristique senectus et. Adipiscing elit duis tristique
-        sollicitudin nibh sit. Ornare aenean euismod elementum nisi quis eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla posuere
-        sollicitudin aliquam ultrices sagittis orci a.
+      To be at the forefront of data management and business analytic for our client in the way setting the highest standards of professionalism and Quality of Service.
       </Typography>
     </main>
   );
