@@ -48,6 +48,16 @@ const theme = createMuiTheme({
       fontSize: "1.375rem",
       lineHeight: "1.375rem",
       marginBottom: "1.25rem",
+      paddingTop:"20px",
+      color: "#191b5d",
+    },
+    h7: {
+      fontWeight: 600,
+      fontFamily: ["Quicksand, san-sariff"],
+      fontSize: "1.575rem",
+      lineHeight: "1.375rem",
+      marginBottom: "1.25rem",
+      paddingTop:"20px",
       color: "#191b5d",
     },
     subtitle1: {

@@ -5,7 +5,7 @@ import About from "../components/About";
 import Why from "../components/Why";
 import Creative from "../components/Creative";
 
-function Home() {
+function HomePage() {
   return (
     <div className="Home">
       <Slider />
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

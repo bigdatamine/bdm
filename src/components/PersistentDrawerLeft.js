@@ -25,10 +25,10 @@ const menuLinks = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
   { name: "Background", link: "/background" },
-  { name: "Service 1", link: "/service1" },
-  { name: "Service 2", link: "/service2" },
-  { name: "Service 3", link: "/service3" },
-  { name: "Service 4", link: "/service4" },
+  { name: "Data Management", link: "/data-management" },
+  { name: "App Development", link: "/app-development" },
+  { name: "Website Development", link: "/website-development" },
+  { name: "ICT Services", link: "/ict-services" },
 ];
 
 const styles = makeStyles((theme) => ({
@@ -66,10 +66,10 @@ const styles = makeStyles((theme) => ({
   },
   drawerHeader: {
     display: "flex",
-    borderBottom: "3px solid #000",
+    borderBottom: "3px solid #fff",
     alignItems: "center",
     backgroundColor: theme.palette.primary.dark,
-    padding: theme.spacing(1, 2),
+    padding: theme.spacing(1.25, 2),
     color: theme.palette.grey[300],
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
@@ -89,6 +89,7 @@ const styles = makeStyles((theme) => ({
   listItemText: {
     color: theme.palette.grey[500],
     textDecoration: "none",
+    fontSize: 18,
   },
   follow: {
     marginBottom: 10,
@@ -97,7 +98,7 @@ const styles = makeStyles((theme) => ({
     paddingBottom: 5,
     paddingRight: 24,
     marginRight: 24,
-    borderRight: "2px solid #d3d3d3",
+    borderRight: "2px solid #fff",
   },
   instagam: {
     height: 31,
@@ -162,7 +163,7 @@ function PersistentDrawerLeft() {
         }}
       >
         <div className={classes.drawerHeader}>
-          <Typography variant="h6" noWrap>
+          <Typography variant="h5" noWrap>
             Menu
           </Typography>
           <IconButton onClick={handleDrawerClose}>{theme.direction === "ltr" ? <ChevronLeftIcon /> : <ChevronRightIcon />}</IconButton>

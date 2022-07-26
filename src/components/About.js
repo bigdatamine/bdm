@@ -14,7 +14,7 @@ const styles = makeStyles((theme) => ({
     clear: "both",
     width: "100%",
     height: "auto",
-    paddingTop: "50px",
+    paddingTop: "30px",
     paddingLeft: "30px",
     paddingRight: "30px",
     backgroundColor: "#EBECEC",
@@ -25,7 +25,7 @@ const styles = makeStyles((theme) => ({
     flexWrap: "wrap",
   },
   about: {
-    paddingTop: "150px",
+    paddingTop: "80px",
   },
   illustration: {
     paddingTop: "60px",
@@ -44,7 +44,7 @@ function About() {
       <Container maxWidth="lg">
         <Divider />
         <div className={classes.wrapper}>
-          <Grid container spacing={3}>
+          <Grid container spacing={2}>
             <Grid item xs={6} lg={7}>
               <div className={classes.about}>
                 <div class="views-field views-field-title">
@@ -59,9 +59,9 @@ function About() {
                     </Typography>
                   </div>
                 </div>
-                <div class="views-field views-field-view-node">
+                <div class="about-button">
                   <span class="field-content">
-                    <LinkedButton link="About" size="medium">Read More</LinkedButton>
+                    <LinkedButton to='About' size="medium">Read More</LinkedButton>
                   </span>
                 </div>
               </div>

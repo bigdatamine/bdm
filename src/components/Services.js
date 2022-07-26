@@ -57,14 +57,15 @@ function Carousel() {
           Services
         </Typography> */}
         <Slider className={classes.slider} {...settings}>
-          <Service title="Our Website" link="service1">      
-This includes: Domain Name Registration, Website Designing & Development, Multimedia Presentations, Web Hosting, Internet & SMS Based Marketing, Search Engine Optimization, Live Chart Service, Web Server Configuration, Integrated Web Application Development.
-          </Service>
-          <Service title="Our Data Management" link="service2">
+        <Service title="Data Management Services" link="/service1">
       
-This includes: Document Management Solutions, Cloud Service Consultations, Database Design & Development, Reports Formulation from existing Data, Imaging, Data Capture and Migration services, Data center Maintenance & Hosting facilities
+      This includes: Document Management Solutions, Cloud Service Consultations, Database Design & Development, Reports Formulation from existing Data, Imaging, Data Capture and Migration services, Data center Maintenance & Hosting facilities
+                </Service>
+          <Service title="App Development Services" link="/service2">      
+              Domain Name Registration, Website Designing and Development, Multimedia Presentations, Web Hosting, Internet & SMS Based Marketing, Search Engine Optimization, Live Chart Service, Web Server Configuration, Integrated Web Application Development.
           </Service>
-          <Service title="Other ICT services" link="service3">
+
+          <Service title="Other ICT services" link="/service3">
                   
           ICT consultancy services , Security Management and Maintenance Services, Supplies, Digital Forensic and Network management services
           </Service>

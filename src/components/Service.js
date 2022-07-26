@@ -75,7 +75,7 @@ function Service(props) {
             </div>
             <div className={classes.fieldViewNode}>
               <span class="field-content">
-                <LinkButton size="medium" component={link}>
+                <LinkButton size="medium" to={link}>
                   Read More
                 </LinkButton>
               </span>

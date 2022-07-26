@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import { StateContext } from "../StateContext";
+import About from './../components/About';
 
 const drawerWidth = 240;
 const styles = makeStyles((theme) => ({
@@ -31,7 +32,7 @@ const styles = makeStyles((theme) => ({
     marginLeft: drawerWidth,
   },
 }));
-function Home() {
+function AboutPage() {
   const classes = styles();
   const { state = { drawer: false } } = useContext(StateContext);
 
@@ -54,4 +55,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default AboutPage;
