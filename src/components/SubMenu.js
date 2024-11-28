@@ -128,6 +128,15 @@ function SubMenu() {
                       </span>
                     </div>
                   </div>
+                  <div class="views-row">
+                    <div class="views-field views-field-title">
+                      <span class="field-content">
+                        <Link to="/policy" style={{ textDecoration: "none" }}>
+                        Privacy Policy 
+                        </Link>
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

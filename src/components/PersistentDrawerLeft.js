@@ -24,11 +24,12 @@ const drawerWidth = 240;
 const menuLinks = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
-  { name: "Background", link: "/background" },
-  { name: "Data Management", link: "/data-management" },
-  { name: "App Development", link: "/app-development" },
-  { name: "Website Development", link: "/website-development" },
-  { name: "ICT Services", link: "/ict-services" },
+  { name: "Background", link: "/about" },
+  { name: "Data Management", link: "/service1" },
+  { name: "App Development", link: "/service2" },
+  { name: "Website Development", link: "/service2" },
+  // { name: "ICT Services", link: "/ict-services" },
+  { name: "Privacy Policy", link: "/policy" },
 ];
 
 const styles = makeStyles((theme) => ({
